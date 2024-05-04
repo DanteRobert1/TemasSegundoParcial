@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebApi</title>
+    <link rel="shortcut icon" href="../Imagenes/Icono.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            background-color: rgb(0, 13, 131);
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .content {
+    text-align: center;
+  }
+  img {
+  display: block;
+  margin: 0 auto;
+}
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+    </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../Main/Menu_principal.html">
+                <img src="../Imagenes/Logo.jpg" alt="Logo" style="width:40px;" class="rounded-pill">
+              </a>
+              </div>
+              <a class="navbar-brand" href="../Contenido/Tecnologias_web_API.html"> Tecnologías de Web API </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            </nav>
+        <div class="centered-container">
+            <div class="container p-2 my-5 bg-primary text-white border content">
+              <h1>JWT</h1>
+          </div>
+        </div>
+        
+        <div class="container p-5 my-3 bg-dark text-white border">
+            <div class="centered-container">
+            <h2>JWT QUE ES?</h2>
+        </div>
+            <p>
+                ES UN ESTÁNDAR PARA LA AUTENTICACIÓN Y EL INTERCAMBIO DE INFORMACIÓN.          
+                SI UN JWT ESTÁ FIRMADO POR UN PAR DE CLAVES PÚBLICA/PRIVADA, LA EMPRESA CERTIFICA QUE LA PARTE QUE TIENE LA CLAVE PRIVADA ESTÁ REALMENTE FIRMADA.
+            </p>
+            <h2>TOKEN</h2>
+            <p>
+                ESTOS DATOS SE CONVIERTEN EN UNA FIRMA DIGITAL QUE TE IDENTIFICARÁ DE MANERA ÚNICA PARA ESE BANCO Y CADA VEZ QUE ACCEDAS A TU BANCO E INGRESES TU CONTRASEÑA Y DATOS PERSONALES, EL BANCO COMPRENDERÁ Y CONFIRMARÁ QUE TÚ ERES EL USUARIO QUE INICIÓ LA SESIÓN.
+            </p>
+          </div>    
+          <img src="../Imagenes/JWT.png" alt="Workplace" usemap="#Titulo" width="1000" height="800">
+
+          <div class="centered-container">
+            <div class="container p-2 my-5 bg-primary text-white border content">
+              <h1>COMPONENTES</h1>
+          </div>
+        </div>
+
+        <div class="container p-5 my-3  text-white border">
+            <div class="centered-container">
+            <h2>HEADER</h2>
+        </div>
+            <p>HEADERS SON LOS ENCABEZADOS DEL TOKEN DONDE PASAMOS BÁSICAMENTE DOS PIEZAS DE INFORMACIÓN: EL ALGORITMO QUE INFORMA QUÉ ALGORITMO SE USA PARA CREAR LA FIRMA Y EL TYP QUE INDICA EL TIPO DE TOKEN. 
+            </p>
+          </div> 
+          <div class="container p-5 my-3 text-white border">
+            <div class="centered-container">
+            <h2>PAYLOAD</h2>
+        </div>
+            <p>
+                EL PAYLOAD ES EL COMPONENTE DONDE SE PUEDEN ENCONTRAR DATOS DE AUTENTICACIÓN COMO CONTRASEÑAS Y CORREOS ELECTRÓNICOS.
+            </p>
+          </div> 
+          <div class="container p-5 my-3 text-white border">
+            <div class="centered-container">
+            <h2>SIGNATURE</h2>
+        </div>
+            <p>
+                LA FIRMA DEL TOKEN (FIRMA) ESTÁ COMPUESTA POR LA CODIFICACIÓN DEL ENCABEZADO Y EL PAYLOAD MÁS UNA CLAVE SECRETA Y ES GENERADA POR EL ALGORITMO ESPECIFICADO EN EL ENCABEZADO.
+            </p>
+          </div> 
+          <iframe width="700" height="500" src="https://www.youtube.com/embed/tWQobKFQLG0?si=gBKPZB4IbFFRMDxX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </body>
+  </html>

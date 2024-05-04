@@ -1,0 +1,31 @@
+Apis:
+https://aulavirtual.uaa.mx/pluginfile.php/128454/mod_resource/content/1/UII_1.Tecnolog%C3%ADas%20de%20Web%20APIs.pdf
+https://youtu.be/u2Ms34GE14U?si=S2HLp7oVFU7xdB5g
+https://youtu.be/l6oF_RpBf64?si=XdxxwhtZLD6MhLao
+https://aulavirtual.uaa.mx/pluginfile.php/133180/mod_resource/content/1/SOAP_%20Definici%C3%B3n%2C%20Caracter%C3%ADsticas%2C%20Usabilidad%2C%20Funcionamiento%2C%20Beneficios%2C%20Ventajas%20y%20Desventajas.pdf
+https://aulavirtual.uaa.mx/pluginfile.php/134015/mod_resource/content/1/%C2%BFQu%C3%A9%20es%20una%20API%20REST_%20_%20IBM.pdf
+https://aulavirtual.uaa.mx/pluginfile.php/135335/mod_resource/content/1/%C2%BFQu%C3%A9%20es%20JSON%20Web%20Token.pdf
+
+Microservicios:
+https://www.ibm.com/mx-es/topics/microservices
+https://aws.amazon.com/es/microservices/#:~:text=Los%20microservicios%20son%20un%20enfoque,servicios%20son%20equipos%20peque%C3%B1os%20independientes.
+https://www.intel.la/content/www/xl/es/cloud-computing/microservices.html
+
+Desarrollo API:
+https://aulavirtual.uaa.mx/pluginfile.php/141695/mod_resource/content/1/UII_3.Desarrollo%20de%20una%20Web%20API.pdf
+
+Contenedores:
+https://cloud.google.com/learn/what-are-containers?hl=es
+
+Desarrollo de aplicaciones para la nube:
+https://www.aplyca.com/blog/blog-desarrollo-de-aplicaciones-en-la-nube-escalabilidad-y-flexibilidad-proyectos-web
+
+ASP.NET
+https://learn.microsoft.com/es-es/aspnet/web-forms/what-is-web-forms
+https://learn.microsoft.com/es-es/dotnet/framework/wcf/whats-wcf
+https://learn.microsoft.com/es-es/aspnet/mvc/overview/older-versions-1/overview/asp-net-mvc-overview
+https://dotnet.microsoft.com/es-es/apps/aspnet/apis
+https://learn.microsoft.com/es-es/aspnet/signalr/overview/getting-started/introduction-to-signalr
+https://dotnet.microsoft.com/es-es/learn/aspnet/what-is-aspnet-core
+https://www.w3schools.com/asp/razor_intro.asp
+https://learn.microsoft.com/es-es/aspnet/core/blazor/?view=aspnetcore-8.0&WT_mc_id=dotnet-35129-website

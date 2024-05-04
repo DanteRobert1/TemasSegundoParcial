@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Temas</title>
+  <link rel="shortcut icon" href="../Imagenes/Icono.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+        background-color: rgb(0, 7, 102);
+    }
+    .centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44vh; 
+  }
+  .content {
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../Imagenes/Logo.jpg" alt="Logo" style="width:40px;" class="rounded-pill">
+        </a>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Temas: </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="../Contenido/Tecnologias_web_API.html">Tecnologías de Web APIs</a>
+        </li> 
+        <li class="nav-item">
+            <a class="nav-link" href="../Contenido/Microservicios.html">Microservicios</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="../Contenido/Desarrollo_web_API.html">Desarrollo de una Web API</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="../Contenido/ManejoContenedores.html">Manejo de Contenedores</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="../Contenido/DesarrolloAplicacionesNube.html">Desarrollo de Aplicaciones para la nube</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="../Contenido/Desarrollo_Aplicaciones_Web_ASP_NET.html">Tec. Aplicaciones ASP.NET</a>
+          </li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="centered-container">
+    <div class="container p-2 my-5 bg-dark text-white border content">
+      <h1>Segundo Parcial</h1>
+      <p>Daniel Roberto Barrios Martinez</p>
+  </div>
+</div>
+  <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../Imagenes/Web imagen.jpg" alt="Web" class="d-block" style="width:100%">
+    </div>
+   <div class="carousel-item">
+      <img src="../Imagenes/WebProgramacion.jpg" alt="Progra" class="d-block" style="width:100%">
+    </div>
+  </div> 
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</body>
+</html>
